@@ -77,30 +77,30 @@ El repositorio incluye los materiales y ejercicios correspondientes a las siguie
 
 ## 📂 Estructura del Proyecto
 
+```plaintext
+
 ├── Unidad_01/
-│ ├── Ejercicios_XML/
-│ ├── Ejercicios_XSL/
-│ └── Ejercicios_DTD/
-│
+│   ├── Ejercicios_XML/
+│   ├── Ejercicios_XSL/
+│   └── Ejercicios_DTD/
 ├── Unidad_02/
-│ ├── Ejercicios_HTML/
-│ └── Ejercicios_CSS/
-│
+│   ├── Ejercicios_HTML/
+│   └── Ejercicios_CSS/
 ├── Unidad_03/
-│ ├── Ejercicios_HTML/
-│ ├── Ejercicios_XML/
-│ └── Ejercicios_DTD/
-│
+│   ├── Ejercicios_HTML/
+│   ├── Ejercicios_XML/
+│   └── Ejercicios_DTD/
 ├── Unidad_05/
-│ ├── Ejercicios_HTML/
-│ ├── Ejercicios_XML/
-│ ├── Ejercicios_XSLT/
-│ ├── Ejercicios_CSS/
-│ └── Ejercicios_XSL/
-│
+│   ├── Ejercicios_HTML/
+│   ├── Ejercicios_XML/
+│   ├── Ejercicios_XSLT/
+│   ├── Ejercicios_CSS/
+│   └── Ejercicios_XSL/
 └── Unidad_06/
-├── Ejercicios_XML/
-└── Ejercicios_HTML/
+    ├── Ejercicios_XML/
+    └── Ejercicios_HTML/
+
+```
 
 ---
 
