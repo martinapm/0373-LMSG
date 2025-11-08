@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>EJERCICIOS - EJ3 </title>
+</head>
+<body>
+    <h2> Ejercicio3: Contador de vocales </h2>
+</body>
+<p>
+    <script>
+        var texto = "JavaScript es divertido";
+        var espacio = '<br>';
+        var vocales = "aeiou";
+        var contador = 0;
+        for (var i = 0; i < texto.length; i++) {
+                if (vocales.indexOf(texto[i]) !== -1) {
+        contador++;
+                }
+            }
+            
+            document.write(texto);
+            document.write(espacio);
+            document.write("El texto tiene " + contador + " vocales");
+</script>
+</p>
+</body>
+</html>
