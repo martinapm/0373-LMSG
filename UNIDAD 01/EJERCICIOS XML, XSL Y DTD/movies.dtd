@@ -1,7 +1,0 @@
-<!ELEMENT store (movie+)>
-<!ELEMENT movie (title, genre, price, director)>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT genre (#PCDATA)>
-<!ELEMENT price (#PCDATA)>
-<!ELEMENT director (#PCDATA)>
-<!ATTLIST movie id ID #REQUIRED>
