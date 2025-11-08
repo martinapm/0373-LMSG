@@ -1,0 +1,214 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Estilos de fuente y fondo generales */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Cabecera */
+header {
+    background-color: #282c34;
+    color: #e97459;
+    padding: 1.5rem;
+    text-align: center;
+    background: url(header.jpg) no-repeat center;
+    background-size: cover;
+    font-family: serif;
+}
+header h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffdd57;
+    font-family: serif; /* Color único para el título */
+}
+header p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #e97459;
+    padding: 0 100px; /* Color único para la descripción */
+}
+
+/* Menú de Navegación */
+nav {
+    background: #333;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5rem 0;
+    font-family: serif;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+}
+nav ul li {
+    position: relative;
+    margin: 0 1rem;
+    font-family: serif;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+    font-family: serif;
+}
+nav ul li a:hover {
+    background-color: #555;
+    font-family: serif;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0.5rem;
+    list-style: none;
+    min-width: 150px;
+    font-family: serif;
+}
+
+nav ul li ul li a {
+    padding: 0.5rem;
+    display: block;
+    font-family: serif;
+}
+
+/* Contenido Principal */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-family: serif;
+}
+
+/* Artículos */
+article {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    font-family: serif;
+}
+article h2 {
+    color: #333;
+    font-size: 1.8rem;
+    font-family: serif;
+}
+article p {
+    font-size: 1rem;
+    color: #555;
+    font-family: serif;
+}
+article img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0.5rem 0;
+    font-family: serif;
+    text-align: center;
+}
+.imagen-ajustada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #ffe8cd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: serif;
+}
+form label {
+    font-weight: bold;
+    color: #333;
+    font-family: serif;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: serif;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form textarea:focus {
+    border-color: #e97459;
+    outline: none;
+    font-family: serif;
+}
+form button {
+    padding: 0.8rem;
+    background-color: #e97459;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    font-family: serif;
+}
+form button:hover {
+    background-color: pink;
+    font-family: serif;
+}
+/* Mensajes de error en el formulario */
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-family: serif;
+}
+input:invalid,
+textarea:invalid {
+    border-color: red;
+    font-family: serif;
+}
+input:invalid + .error-message,
+textarea:invalid + .error-message {
+    display: inline;
+    font-family: serif;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #8B0000;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 157px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-family: serif;
+}
+footer p {
+    font-weight: bold;
+    font-family: serif;
+    font-size: 30px;
+}
