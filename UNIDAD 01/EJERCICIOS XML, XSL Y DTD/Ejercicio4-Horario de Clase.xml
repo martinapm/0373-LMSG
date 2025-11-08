@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escuela>
+    <clase>
+        <asignatura>Matematicas</asignatura>
+        <profesor>
+            <Nombre>Eduardo</Nombre>
+            <Apellido>Aragon</Apellido>
+        <dia_de_la_semana>Miercoles</dia_de_la_semana>
+        <hora_de_inicio>10:00</hora_de_inicio>
+        <hora_de_fin>11:30</hora_de_fin>
+        <aula>2</aula>
+    </clase>
+
+
+
+    <clase>
+        <asignatura>Lengua</asignatura>
+        <profesor>
+            <Nombre>Elizabeth</Nombre>
+            <Apellido>Novo</Apellido>
+        <dia_de_la_semana>Lunes</dia_de_la_semana>
+        <hora_de_inicio>13:00</hora_de_inicio>
+        <hora_de_fin>14:30</hora_de_fin>
+        <aula>5</aula>
+    </clase>
+
+
+
+    <clase>
+        <asignatura>Conocimiento del Medio</asignatura>
+        <profesor>
+            <Nombre>Juan</Nombre>
+            <Apellido>Medina</Apellido>
+        <dia_de_la_semana>Viernes</dia_de_la_semana>
+        <hora_de_inicio>09:00</hora_de_inicio>
+        <hora_de_fin>10:00</hora_de_fin>
+        <aula>1</aula>
+     </clase>
+
+
+
+    <clase>
+        <asignatura>Educacion Fisica</asignatura>
+        <profesor>
+            <Nombre>Imanol</Nombre>
+            <Apellido>Caballero</Apellido>
+        <dia_de_la_semana>Viernes</dia_de_la_semana>
+        <hora_de_inicio>13:00</hora_de_inicio>
+        <hora_de_fin>14:30</hora_de_fin>
+        <aula>4</aula>
+        </clase>
+
+
+
+
+     <clase>
+        <asignatura>Fisica</asignatura>
+        <profesor>
+            <Nombre>Trini</Nombre>
+            <Apellido>Bolivar</Apellido>
+        <dia_de_la_semana>Jueves</dia_de_la_semana>
+        <hora_de_inicio>12:00</hora_de_inicio>
+        <hora_de_fin>13:00</hora_de_fin>
+        <aula>3</aula>
+    </clase>
+</escuela>

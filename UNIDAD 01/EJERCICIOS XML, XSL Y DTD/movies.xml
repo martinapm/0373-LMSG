@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store SYSTEM "movies.xsl">
+<store>
+    <movie id="m1">
+        <title>Inception</title>
+        <genre>Ciencia Ficción</genre>
+        <price>12.99</price>
+        <director>Christopher Nolan</director>
+    </movie>
+    <movie id="m2">
+        <title>Interstellar</title>
+        <genre>Ciencia Ficción</genre>
+        <price>14.99</price>
+        <director>Christopher Nolan</director>
+    </movie>
+    <movie id="m3">
+        <title>El Padrino</title>
+        <genre>Drama</genre>
+        <price>9.99</price>
+        <director>Francis Ford Coppola</director>
+    </movie>
+    <movie id="m4">
+        <title>Gladiador</title>
+        <genre>Acción</genre>
+        <price>10.99</price>
+        <director>Ridley Scott</director>
+    </movie>
+</store>
