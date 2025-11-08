@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Transformaciones XSLT</title>
+            </head>
+            <body>
+                
+                <!-- EJERCICIO 1 -->
+                <h2>Lista de Coches</h2>
+                <table border="1">
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Marca</th>
+                        <th>Mecánico</th>
+                        <th>Email del Mecánico</th>
+                        <th>Ubicación</th>
+                    </tr>
+                    <xsl:for-each select="coches/coche">
+                        <tr>
+                            <td><xsl:value-of select="modelo"/></td>
+                            <td><xsl:value-of select="marca"/></td>
+                            <td><xsl:value-of select="mecanico/nombre"/></td>
+                            <td><xsl:value-of select="mecanico/email"/></td>
+                            <td><xsl:value-of select="ubicacion"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+                
+                <!-- EJERCICIO 2 -->
+                <h2>Detalles de Coches</h2>
+                <xsl:for-each select="coches/coche">
+                    <p>
+                        <strong>Modelo:</strong> <xsl:value-of select="modelo"/> <br/>
+                        <strong>Marca:</strong> <xsl:value-of select="marca"/> <br/>
+                        <strong>Mecánico:</strong> <xsl:value-of select="mecanico/nombre"/> <br/>
+                        <strong>Email:</strong> <xsl:value-of select="mecanico/email"/> <br/>
+                        <strong>Ubicación:</strong> <xsl:value-of select="ubicacion"/>
+                    </p>
+                    <hr/>
+                </xsl:for-each>
+                
+                <!-- EJERCICIO 3 -->
+                <h2>Coches de la marca Ford</h2>
+                <xsl:for-each select="coches/coche">
+                    <xsl:if test="marca='Ford'">
+                        <p>
+                            <strong>Modelo:</strong> <xsl:value-of select="modelo"/> <br/>
+                            <strong>Ubicación:</strong> <xsl:value-of select="ubicacion"/>
+                        </p>
+                        <hr/>
+                    </xsl:if>
+                </xsl:for-each>
+                
+                <!-- EJERCICIO 4 -->
+                <h2>Lista de Mecánicos</h2>
+                <ul>
+                    <xsl:for-each select="coches/coche/mecanico">
+                        <li>
+                            <xsl:value-of select="nombre"/> - <xsl:value-of select="email"/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+                
+                <!-- EJERCICIO 5 -->
+                <h2>Total de Coches</h2>
+                <p>Total: <xsl:value-of select="count(coches/coche)"/></p>
+                
+                <!-- EJERCICIO 6 -->
+                <h2>Transformación de XML</h2>
+                <mecanicos>
+                    <xsl:for-each select="coches/coche/mecanico">
+                        <mecanico>
+                            <nombre><xsl:value-of select="nombre"/></nombre>
+                            <email><xsl:value-of select="email"/></email>
+                            <coches>
+                                <xsl:for-each select="../../coche">
+                                    <coche>
+                                        <modelo><xsl:value-of select="modelo"/></modelo>
+                                        <marca><xsl:value-of select="marca"/></marca>
+                                    </coche>
+                                </xsl:for-each>
+                            </coches>
+                        </mecanico>
+                    </xsl:for-each>
+                </mecanicos>
+                
+                <!-- EJERCICIO 7 -->
+                <h2>Resaltado de Taller 1</h2>
+                <xsl:for-each select="coches/coche">
+                    <p>
+                        <xsl:choose>
+                            <xsl:when test="ubicacion='Taller 1'">
+                                <strong>
+                                    Modelo: <xsl:value-of select="modelo"/> <br/>
+                                    Marca: <xsl:value-of select="marca"/> <br/>
+                                    Ubicación: <xsl:value-of select="ubicacion"/>
+                                </strong>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                Modelo: <xsl:value-of select="modelo"/> <br/>
+                                Marca: <xsl:value-of select="marca"/> <br/>
+                                Ubicación: <xsl:value-of select="ubicacion"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </p>
+                    <hr/>
+                </xsl:for-each>
+                
+            </body>
+        </html>
+    </xsl:template>
+    
+</xsl:stylesheet>
