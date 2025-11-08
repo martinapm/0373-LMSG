@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UFT-8"?>
+
+<restaurante>
+
+#1
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Macarrones con tomate frito</nombre>
+</plato>
+<descripcion_del_plato>Plato de macarrones con salsa de tomate frito y con cualquier acompañamiento</descripcion_del_plato>
+<precio moneda='EUR'>10</precio>
+
+
+
+#2
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Natillas con galletas</nombre>
+<descripcion_del_plato>Cuenco de natillas con galletas con un toque de canela</descripcion_del_plato>
+<precio moneda='EUR'>7</precio>
+
+
+#3
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Ensalada de Tomate</nombre>
+<descripcion_del_plato>Plato con rodajas de tomate con su alinio correspondiente</descripcion_del_plato>
+<precio moneda='EUR'>6</precio>
+
+
+#4
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Sopa de letras</nombre>
+<descripcion_del_plato>Plato con sopa con fideos de letras</descripcion_del_plato>
+<precio moneda='EUR'>3</precio>
+
+
+
+#5
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Canelones de espinacas</nombre>
+<descripcion_del_plato>Plato con 6 canelones calientes y de espinacas</descripcion_del_plato>
+<precio moneda='EUR'>9</precio>
+
+
+
+#6
+<plato categoria='entrada| plato principal| postre' disponibilidad='si|no'>
+<nombre>Tarta de queso</nombre>
+<descripcion_del_plato>Plato con bizcocho de tarta de queso y sirope al gusto</descripcion_del_plato>
+<precio moneda='EUR'>6</precio>
+
+
+</restaurante>
