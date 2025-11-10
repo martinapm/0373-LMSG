@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <disco>
+        <nombre>Sgt. Pepper's Lonely Hearts Club Band</nombre>
+        <grupo>The Beatles</grupo>
+        <año>1967</año>
+        <discografica>Capitol</discografica>
+        <formato>LP</formato>
+    </disco>
+    <disco>
+        <nombre>What's Going On</nombre>
+        <grupo>Marvin Gaye</grupo>
+        <año>1971</año>
+        <discografica>Motown</discografica>
+        <formato>K7</formato>
+    </disco>
+    <disco>
+        <nombre>Blood on the Tracks</nombre>
+        <grupo>Bob Dylan</grupo>
+        <año>1975</año>
+        <discografica>Columbia</discografica>
+        <formato>LP</formato>
+    </disco>
+    <disco>
+        <nombre>Back to Mono (1958-1969)</nombre>
+        <grupo>Phil Spector</grupo>
+        <año>1991</año>
+        <discografica>Abkco</discografica>
+        <formato>CD</formato>
+    </disco>
+    <disco>
+        <nombre>Physical Graffiti</nombre>
+        <grupo>Led Zeppelin</grupo>
+        <año>1975</año>
+        <discografica>Atlantic</discografica>
+        <formato>LP</formato>
+    </disco>
+    <disco>
+        <nombre>Back In Black</nombre>
+        <grupo>AC/DC</grupo>
+        <año>1980</año>
+        <discografica>Atlantic</discografica>
+        <formato>K7</formato>
+    </disco>
+</tienda>
