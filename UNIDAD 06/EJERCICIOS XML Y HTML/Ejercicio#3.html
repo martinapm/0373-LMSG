@@ -1,0 +1,55 @@
+--- Mostrar todos los títulos de libros
+
+for $x in /biblioteca/libro
+return $x/titulo
+
+---Los títulos de los libros cuyo precio sea mayor de 30
+
+for $x in /biblioteca/libro
+where $x/precio>30
+return $x/titulo
+
+--- Presentar los títulos ordenados alfabéticamente en forma de lista (HTML)
+
+<ul>
+{
+for $x in /biblioteca/libro/titulo
+order by $x
+return <li>{ $x }</li>
+}
+</ul>
+
+--- Formar un HTML completo con los títulos de los libros ordenados alfabéticamente e
+intercalando la catergory de los libros dentro del código HTML para usarla como nombre de
+una clase CSS.
+
+<html>
+<body>
+<h1>Libros de la biblioteca</h1>
+<ul>
+{
+    for $x in /biblioteca/libro
+order by $x/titulo
+return <li class="{data($x/@category)}">{data($x/titulo)}</li>}
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+-- El HTML sería
+<html>
+<body>
+<h1> Libros de la biblioteca </h1>
+<ul>
+<li class="COOKING">Everyday Italian</li>
+<li class="CHILDREN">Harry Potter</li>
+<li class="WEB">Learning XML</li>
+<li class="WEB">XQuery Kick Start</li>
+</ul>
+</body>
+</html>
