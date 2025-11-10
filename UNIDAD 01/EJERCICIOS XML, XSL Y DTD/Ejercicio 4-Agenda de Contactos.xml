@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<agenda_de_contactos>
+
+<nombre>Paco</nombre>
+<apellido>Manzanales</apellido>
+<telefono>666141578</telefono>
+<correo_electronico>pacoman@gmail.com</correo_electronico>
+<direccion>
+    <calle>Nueva Ciudad</calle>
+    <ciudad>Almeria</ciudad>
+    <Pais>Hispania</Pais>
+</direccion>
+
+<nombre>Berta</nombre>
+<apellido>Palomares</apellido>
+<telefono>647892500</telefono>
+<correo_electronico>bpaloma@hotmail.com</correo_electronico>
+<direccion>
+    <calle>Sol y Sombra</calle>
+    <ciudad>Sevilla</ciudad>
+    <Pais>Hispania</Pais>
+</direccion>
+
+
+
+
+<nombre>Alvaro</nombre>
+<apellido>Hernandez</apellido>
+<telefono>671549207</telefono>
+<correo_electronico>hernadezalv@yahoo.es</correo_electronico>
+<direccion>
+    <calle>gracia</calle>
+    <ciudad>Leon</ciudad>
+    <Pais>Hispania</Pais>
+</direccion>
+</agenda_de_contactos>
+
+
+
+
+<nombre>Graciela</nombre>
+<apellido>Jimenez</apellido>
+<telefono>784013954</telefono>
+<correo_electronico>gracijim@gmail.com</correo_electronico>
+<direccion>
+    <calle>Arboles Soleados</calle>
+    <ciudad>Tarragona</ciudad>
+    <Pais>Hispania</Pais>
+</direccion>
+
+
+
+
+</agenda_de_contactos>

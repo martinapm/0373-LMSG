@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UFT-8"?>
+
+<universidad>
+
+<alumno matricula='7800'>
+<nombre> Maria</nombre>
+<apellido>Garcia</apellido>
+<fecha_de_nacimiento>01-01-2001</fecha_de_nacimiento>
+<carrera>Ingeneria Cuantica </carrera>
+<anio_de_ingreso>2019</anio_de_ingreso>
+</alumno>
+
+<alumno matricula='7801'>
+<nombre> Luis</nombre>
+<apellido>Arevalo</apellido>
+<fecha_de_nacimiento>25-06-1999</fecha_de_nacimiento>
+<carrera>Literatura Clasica </carrera>
+<anio_de_ingreso>2010</anio_de_ingreso>
+</alumno>
+
+
+<alumno matricula='7802'>
+<nombre> Elena</nombre>
+<apellido>Bolivar</apellido>
+<fecha_de_nacimiento>10-10-2009</fecha_de_nacimiento>
+<carrera>Relaciones Laborales </carrera>
+<anio_de_ingreso>2022</anio_de_ingreso>
+</alumno>
+
+
+</universidad>

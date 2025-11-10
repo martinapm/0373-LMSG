@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<viaje>
+
+<dia numero='1'>
+
+
+<fecha>01-08-2025</fecha>
+<actividad>Submarinismo</actividad>
+<hora_de_inicio>17:00</hora_de_inicio>
+<lugar>Puerto de Santa Maria</lugar>
+</dia>
+
+
+<dia numero='2'>
+
+
+<fecha>07-07-2025</fecha>
+<actividad>Lanzamiento de Perdiga</actividad>
+<hora_de_inicio>18:00</hora_de_inicio>
+<lugar>Cadiz</lugar>
+</dia>
+
+
+
+
+<dia numero='3'>
+
+
+<fecha>05-09-2025</fecha>
+<actividad>Avistamiento de vacas</actividad>
+<hora_de_inicio>11:00</hora_de_inicio>
+<lugar>Oviedo</lugar>
+</dia>
+</viaje>
+
+
+
+
+
+<viaje numero='4'>
+
+
+<fecha>16-05-2025</fecha>
+<actividad>Escapada a la montaña</actividad>
+<hora_de_inicio>10:00</hora_de_inicio>
+<lugar>Andorra</lugar>
+</viaje>
+
+
+
+
+
+<viaje numero='5'>
+
+
+<fecha>14-10-2025</fecha>
+<actividad>Tour por la ciudad</actividad>
+<hora_de_inicio>12:00</hora_de_inicio>
+<lugar>Madrid</lugar>
+</viaje>
+
+
+
+
+
+<itinerario>

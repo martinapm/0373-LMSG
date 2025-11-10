@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UFT-8"?>
+
+<programacion_de_peliculas>
+
+
+<pelicula>
+<titulo>Senior de los Anillos</titulo>
+<director>Peter Jackson</director>
+<anio_de_estreno>19-12-2001</anio_de_estreno>
+<genero>Fantasia</genero>
+<Duracion>145</Duracion>
+<Pais_de_Origen>EE.UU</Pais_de_Origen>
+<Horario_de_Proyeccion sala='1'>16:00</Horario_de_Proyeccion>
+</pelicula>
+
+
+<pelicula>
+<titulo>La Momia</titulo>
+<director>Jackson M.</director>
+<anio_de_estreno>24-05-2002</anio_de_estreno>
+<genero>Aventura</genero>
+<Duracion>93</Duracion>
+<Pais_de_Origen>EE.UU</Pais_de_Origen>
+<Horario_de_Proyeccion sala='2'>17:30</Horario_de_Proyeccion>
+</pelicula>
+
+
+
+
+<pelicula>
+<titulo>La Fraternidad</titulo>
+<director>Hollyman. Gk.</director>
+<anio_de_estreno>04-07-2003</anio_de_estreno>
+<genero>Miedo</genero>
+<Duracion>100</Duracion>
+<Pais_de_Origen>Italia</Pais_de_Origen>
+<Horario_de_Proyeccion sala='3'>14:00</Horario_de_Proyeccion>
+</pelicula>
+
+
+
+
+
+<pelicula>
+<titulo>Amor a primera vista</titulo>
+<director>Madison Beer</director>
+<anio_de_estreno>1998</anio_de_estreno>
+<genero>Romantica</genero>
+<Duracion>102</Duracion>
+<Pais_de_Origen>Escocia</Pais_de_Origen>
+<Horario_de_Proyeccion sala='4'>16:30</Horario_de_Proyeccion>
+</pelicula>
+
+
+
+
+
+
+<pelicula>
+<titulo>Las aventuras locas de las 2 hermanas</titulo>
+<director>Fimbol F. y Sarah L.</director>
+<anio_de_estreno>07-06-2021</anio_de_estreno>
+<genero>Aventura</genero>
+<Duracion>80</Duracion>
+<Pais_de_Origen>Rumania</Pais_de_Origen>
+<Horario_de_Proyeccion sala='5'>18:00</Horario_de_Proyeccion>
+</pelicula>
+
+
+
+
+
+</programacion_de_peliculas>
